@@ -38,7 +38,7 @@ def home():
 
 @app.route("/upload/<episodeId>")
 def upload(episodeId):
-    url = f"https://thumb-api-dd6b.vercel.app/gen/{episodeId}_large"
+    url = f"https://anixer-api.animxersite.workers.dev/gen/{episodeId}_large"
     link = Upload_To_Postman(url)
     x = link.split("/")
     link = "/".join(x[:-1])
@@ -49,7 +49,7 @@ def upload(episodeId):
 
 @app.route("/thumb/<episodeId>")
 def thumbnail(episodeId):
-    url = f"https://thumb-api-dd6b.vercel.app/gen/{episodeId}_thumb"
+    url = f"https://anixer-api.animxersite.workers.dev/gen/{episodeId}_thumb"
     link = Upload_To_Postman(url)
     x = link.split("/")
     link = "/".join(x[:-1])
