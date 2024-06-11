@@ -58,7 +58,7 @@ def Upload_To_Postman(file_url):
     return data['url']
 
 
-# Upload_To_Postman('https://thumb-gen-py.vercel.app/gen/kuroko-no-basket-2nd-season-dub-episode-3_thumb')
+# Upload_To_Postman('https://thumb-api-dd6b.vercel.app/gen/kuroko-no-basket-2nd-season-dub-episode-3_thumb')
 
 
 def get_postman_urls(url):
@@ -71,4 +71,4 @@ def get_postman_urls(url):
     return img1, img2
 
 
-# print(get_postman_urls("https://postimg.cc/hJbJd2hP"))
+# print(get_postman_urls("https://postimg.cc/PCwdqxG1"))
